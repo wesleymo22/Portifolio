@@ -1,7 +1,7 @@
 #inicio {
     background: var(--cor-de-fundo-home);
-    margin-top: 55px;
     display: grid;
+    padding-top: 55px;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
@@ -18,8 +18,22 @@
 }
 
 #inicio .conteudo h2{
+    color: rgb(168, 168, 168);
+}
+
+#inicio .conteudo .icones{
+    font-size: 30px;
     margin-bottom: 1em;
     color: gray;
+}
+
+#inicio .conteudo .icones .icone{
+    margin-right: .4em;
+    cursor: pointer;
+}
+
+#inicio .conteudo .icones .icone:hover{
+    color: white;
 }
 
 #inicio .conteudo a{
@@ -28,6 +42,10 @@
     background: #2075ad;
     padding: 1em;
     border-radius: 7px;
+}
+
+#inicio .conteudo a:hover{
+    background-color: #59afe9;
 }
 
 #inicio .imagem img {

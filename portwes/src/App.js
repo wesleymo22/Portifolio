@@ -12,8 +12,8 @@ import Contato from './Componentes/Contato/Index';
 function App() {
   return (
     <div className="App">
+      <Navegacao />
       <header>
-        <Navegacao />
         <Inicio />
       </header>
       <main>
