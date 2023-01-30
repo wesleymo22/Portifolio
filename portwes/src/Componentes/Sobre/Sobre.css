@@ -1,0 +1,31 @@
+#sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 4em 2em;
+}
+
+#sobre .imagem {
+    padding: 2em;
+}
+
+#sobre .imagem .icone{
+    font-size: 450px;
+}
+
+#sobre .conteudo {
+    padding: 2em;
+    color: gray;
+}
+
+#sobre .conteudo h2{
+    color: black;
+    background-image: var(--cor-titulo);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
