@@ -1,10 +1,16 @@
 import './Inicio.css'
 
 const Inicio = () => {
-    return(
+    return (
         <section id='inicio'>
-            <h1>Wesley Moraes</h1>
-            <h2>Desenvolvedor front-End</h2>
+            <div className='conteudo'>
+                <h1>Wesley Moraes</h1>
+                <h2>Desenvolvedor Front-End</h2>
+                <a href="https://www.linkedin.com/in/wesleymo22/">Baixar Curriculo</a>
+            </div>
+            <div className='imagem'>
+                <img src="Imagens/homem.png" alt="homem" />
+            </div>
         </section>
     )
 }

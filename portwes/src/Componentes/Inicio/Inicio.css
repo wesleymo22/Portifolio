@@ -1,0 +1,36 @@
+#inicio {
+    background: var(--cor-de-fundo-home);
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#inicio .conteudo h1{
+    color: black;
+    background-image: var(--cor-titulo);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin: 0;
+}
+
+#inicio .conteudo h2{
+    margin-bottom: 1em;
+    color: gray;
+}
+
+#inicio .conteudo a{
+    text-decoration: none;
+    color: white;
+    background: #2075ad;
+    padding: 1em;
+    border-radius: 7px;
+}
+
+#inicio .imagem img {
+    height: 570px;
+}
+

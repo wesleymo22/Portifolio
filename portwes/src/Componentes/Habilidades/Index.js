@@ -6,13 +6,19 @@ const Habilidades = () => {
             <h2>Habilidades</h2>
             <ul>
                 <li>
-                    Habilidade 1
+                    HTML 5
                 </li>
                 <li>
-                    Habilidade 2
+                    CSS 3
                 </li>
                 <li>
-                    Habilidade 3
+                    JavaScript
+                </li>
+                <li>
+                    ReactJS
+                </li>
+                <li>
+                    Bootstrap
                 </li>
             </ul>
         </section>

@@ -3,7 +3,7 @@ import {Container, Nav, Navbar} from 'react-bootstrap';
 
 const Navegacao = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" className='fixed-top'>
       <Container>
         <Navbar.Brand href="#inicio">Wesley Moraes</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
