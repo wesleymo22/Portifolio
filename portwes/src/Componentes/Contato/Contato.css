@@ -1,1 +1,25 @@
+#contato{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
 
+
+#contato .dados h2{
+    margin: 1em 0;
+    color: black;
+    background-image: var(--cor-titulo);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+#contato .dados h3{
+    color: gray;
+}
+
+#contato .dados p{
+    color: rgb(85, 85, 85);
+}
