@@ -15,7 +15,7 @@ const Inicio = () => {
                 <a href="https://www.linkedin.com/in/wesleymo22/">Baixar Curriculo</a>
             </div>
             <div className='imagem'>
-                <img src="Imagens/homem.png" alt="homem" />
+                <img src="Imagens/home.png" alt="homem" />
             </div>
         </section>
     )

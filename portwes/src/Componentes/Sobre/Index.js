@@ -5,7 +5,7 @@ const Sobre = () => {
     return (
         <section id='sobre'>
             <div className='imagem'>
-                <BsPersonCircle className='icone'/>
+                <img src="Imagens/sobre.png" alt="Wesley Foto" />
             </div>
             <div className='conteudo'>
                 <h2>Sobre</h2>
