@@ -20,7 +20,7 @@
 }
 
 #habilidades ul li .logo{
-    font-size: 150px;
+    font-size: 125px;
     margin: .3em;
 }
 
@@ -33,7 +33,7 @@
 }
 
 #habilidades ul li .logo-css:hover{
-    color: #264de4;
+    color: #1e42ce;
 }
 
 #habilidades ul li .logo-javascript:hover{
@@ -46,4 +46,8 @@
 
 #habilidades ul li .logo-bootstrap:hover{
     color: #553c7b;
+}
+
+#habilidades ul li .logo-git:hover{
+    color: #d8d8d8;
 }

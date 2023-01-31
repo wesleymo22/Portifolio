@@ -1,0 +1,18 @@
+.icones{
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+.icones a{
+    text-decoration: none;
+    color: gray;
+}
+
+.icones .icone{
+    margin-right: .4em;
+    cursor: pointer;
+}
+
+.icones .icone:hover{
+    color: white;
+}

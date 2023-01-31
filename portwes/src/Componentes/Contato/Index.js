@@ -1,3 +1,6 @@
+import RedesSociais from '../RedesSociais/Index';
+import { FaWhatsapp, FaMapMarkerAlt } from 'react-icons/fa'
+import { AiOutlineMail } from 'react-icons/ai'
 import './Contato.css'
 
 
@@ -7,14 +10,21 @@ const Contato = () => {
       <div className='dados'>
         <h2>Contato</h2>
         <h3>Telefone</h3>
-        <p>(11) 99739-7199</p>
+        <p>
+          <a href="tel:11997397199">
+            <FaWhatsapp className="contato-icone" />
+            (11) 99739-7199
+          </a>
+        </p>
         <h3>Endereço</h3>
-        <p>R Ibipitanga 922, Pq Continental 3 Guaruhos SP</p>
+        <p>
+          <FaMapMarkerAlt className="contato-icone" />
+          R Ibipitanga 922, Pq Continental 3 Guaruhos SP
+        </p>
         <h3>Email</h3>
-        <p>wesleymo22@gmail.com</p>
+        <p><AiOutlineMail className="contato-icone"/>wesleymo22@gmail.com</p>
         <h3>Redes Sociais</h3>
-        <p></p>
-
+        <p><RedesSociais /></p>
       </div>
       <div className='formulario'>
 

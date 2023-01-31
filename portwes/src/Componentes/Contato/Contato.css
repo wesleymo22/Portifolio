@@ -20,6 +20,15 @@
     color: gray;
 }
 
-#contato .dados p{
+#contato .dados a, #contato .dados p {
     color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+#contato .dados a:hover, #contato .dados p:hover{
+    color: rgb(185, 185, 185);
+}
+
+#contato .dados .contato-icone{
+    margin-right: .5em;
 }

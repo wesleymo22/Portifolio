@@ -16,6 +16,7 @@
 }
 
 #sobre .conteudo {
+    text-align: center;
     padding: 2em;
     color: gray;
 }

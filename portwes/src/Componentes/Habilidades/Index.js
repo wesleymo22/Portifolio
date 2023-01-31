@@ -1,7 +1,7 @@
 import './Habilidades.css'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io'
-import { FaBootstrap, FaReact } from 'react-icons/fa'
+import { FaBootstrap, FaReact, FaGithub } from 'react-icons/fa'
 
 
 const Habilidades = () => {
@@ -28,6 +28,10 @@ const Habilidades = () => {
                 <li>
                     <FaBootstrap className="logo logo-bootstrap"/>
                     <h3>Boostrap</h3>
+                </li>
+                <li>
+                    <FaGithub className="logo logo-git"/>
+                    <h3>Github</h3>
                 </li>
             </ul>
         </section>

@@ -21,22 +21,7 @@
     color: rgb(168, 168, 168);
 }
 
-#inicio .conteudo .icones{
-    font-size: 30px;
-    margin-bottom: 1em;
-    color: gray;
-}
-
-#inicio .conteudo .icones .icone{
-    margin-right: .4em;
-    cursor: pointer;
-}
-
-#inicio .conteudo .icones .icone:hover{
-    color: white;
-}
-
-#inicio .conteudo a{
+#inicio .botao-curriculo {
     text-decoration: none;
     color: white;
     background: #2075ad;
@@ -44,7 +29,7 @@
     border-radius: 7px;
 }
 
-#inicio .conteudo a:hover{
+#inicio .botao-curriculo:hover{
     background-color: #59afe9;
 }
 
