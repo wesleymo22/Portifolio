@@ -1,0 +1,27 @@
+.cardprojetos{
+    background-color: #757575;
+    width: 400px;
+    border-radius: 7px;
+}
+
+.cardprojetos .cabecalho img {
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: 8px solid rgb(67, 180, 57);
+}
+
+.cardprojetos .rodape {
+    padding: 1em;
+}
+
+.cardprojetos .rodape h4{
+    color: white;
+}
+
+.cardprojetos .rodape h5{
+    color: rgb(197, 197, 197);
+}
+
+.cardprojetos .rodape h6{
+    color: rgb(37, 187, 179);
+}

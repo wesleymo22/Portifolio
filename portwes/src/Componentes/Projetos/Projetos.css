@@ -1,0 +1,25 @@
+#projetos {
+    background-color: var(--cor-de-fundo-secundaria);
+    padding: 2em;
+}
+
+#projetos h2 {
+    color: black;
+    background-image: var(--cor-titulo);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#projetos ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projetos ul li{
+    margin: 1em;
+}

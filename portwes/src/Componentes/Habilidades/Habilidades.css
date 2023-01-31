@@ -1,5 +1,16 @@
 #habilidades {
     text-align: center;
+    padding: 4em;
+}
+
+#habilidades h2 {
+    color: black;
+    background-image: var(--cor-titulo);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-bottom: 1em;
 }
 
 #habilidades ul {
@@ -11,6 +22,10 @@
 #habilidades ul li .logo{
     font-size: 150px;
     margin: .3em;
+}
+
+#habilidades ul li h3{
+    color: gray;
 }
 
 #habilidades ul li .logo-html:hover{

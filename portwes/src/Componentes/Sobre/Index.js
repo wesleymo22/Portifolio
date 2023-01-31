@@ -1,5 +1,4 @@
 import './Sobre.css'
-import {BsPersonCircle} from 'react-icons/bs'
 
 const Sobre = () => {
     return (

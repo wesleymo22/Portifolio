@@ -1,18 +1,25 @@
+import CardProjetos from '../CardProjetos/Index'
 import './Projetos.css'
 
 const Projetos = () => {
-    return(
+    return (
         <section id='projetos'>
             <h2>Projetos</h2>
             <ul>
                 <li>
-                    Projeto 1
+                    <CardProjetos />
                 </li>
                 <li>
-                    Projeto 2
+                    <CardProjetos />
                 </li>
                 <li>
-                    Projeto 3
+                    <CardProjetos />
+                </li>
+                <li>
+                    <CardProjetos />
+                </li>
+                <li>
+                    <CardProjetos />
                 </li>
             </ul>
         </section>

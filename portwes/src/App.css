@@ -1,6 +1,7 @@
 :root{
-    --cor-de-fundo: rgba(0, 0, 0, 1);
-    --cor-de-fundo-home: linear-gradient(120deg, #000000 60%, #068b0c 40%);
+    --cor-de-fundo: #090909;;
+    --cor-de-fundo-secundaria: #1b1b1b;
+    --cor-de-fundo-home: linear-gradient(120deg, #090909 60%, #068b0c 40%);
     --cor-titulo: linear-gradient(to right, #23b82a 20%, #64e298 40%, rgb(100, 219, 110) 60%, #23b82a 80%);
     --cor-textos: white;
 }
