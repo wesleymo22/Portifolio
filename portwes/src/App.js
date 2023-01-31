@@ -12,17 +12,19 @@ import Contato from './Componentes/Contato/Index';
 function App() {
   return (
     <div className="App">
-      <Navegacao />
-      <header>
-        <Inicio />
-      </header>
-      <main>
-        <Sobre />
-        <Habilidades />
-        <Projetos />
-        <Contato />
-      </main>
-      <Footer />
+      <div className="app-box">
+        <Navegacao />
+        <header>
+          <Inicio />
+        </header>
+        <main>
+          <Sobre />
+          <Habilidades />
+          <Projetos />
+          <Contato />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }

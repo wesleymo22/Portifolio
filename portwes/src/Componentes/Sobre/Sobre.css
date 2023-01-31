@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    padding: 4em 2em;
+    padding: 4em 6em;
     background-color: var(--cor-de-fundo-secundaria);
 }
 

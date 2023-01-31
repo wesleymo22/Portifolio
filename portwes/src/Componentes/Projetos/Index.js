@@ -21,6 +21,9 @@ const Projetos = () => {
                 <li>
                     <CardProjetos />
                 </li>
+                <li>
+                    <CardProjetos />
+                </li>
             </ul>
         </section>
     )
