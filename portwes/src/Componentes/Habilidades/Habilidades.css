@@ -4,5 +4,11 @@
 
 #habilidades ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+#habilidades ul li .logo{
+    font-size: 150px;
+    margin: .3em;
 }

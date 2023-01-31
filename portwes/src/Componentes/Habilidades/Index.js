@@ -1,4 +1,8 @@
 import './Habilidades.css'
+import { AiFillHtml5 } from 'react-icons/ai'
+import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io'
+import { FaBootstrap, FaReact } from 'react-icons/fa'
+
 
 const Habilidades = () => {
     return(
@@ -6,19 +10,19 @@ const Habilidades = () => {
             <h2>Habilidades</h2>
             <ul>
                 <li>
-                    HTML 5
+                    <AiFillHtml5 className="logo logo-html" />
                 </li>
                 <li>
-                    CSS 3
+                    <IoLogoCss3 className="logo logo-css"/>
                 </li>
                 <li>
-                    JavaScript
+                    <IoLogoJavascript className="logo logo-javascript"/>
                 </li>
                 <li>
-                    ReactJS
+                    <FaReact className="logo logo-react"/>
                 </li>
                 <li>
-                    Bootstrap
+                    <FaBootstrap className="logo logo-bootstrap"/>
                 </li>
             </ul>
         </section>
