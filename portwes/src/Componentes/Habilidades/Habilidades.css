@@ -12,3 +12,23 @@
     font-size: 150px;
     margin: .3em;
 }
+
+#habilidades ul li .logo-html:hover{
+    color: #EC6231;
+}
+
+#habilidades ul li .logo-css:hover{
+    color: #264de4;
+}
+
+#habilidades ul li .logo-javascript:hover{
+    color: #f0db4f;
+}
+
+#habilidades ul li .logo-react:hover{
+    color: #61dbfb;
+}
+
+#habilidades ul li .logo-bootstrap:hover{
+    color: #553c7b;
+}
