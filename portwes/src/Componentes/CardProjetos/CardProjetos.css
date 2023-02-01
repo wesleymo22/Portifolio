@@ -1,65 +1,71 @@
-.cardprojetos{
+.cardprojetos {
     background-color: #757575;
     width: 100%;
     height: 480px;
     border-radius: 7px;
 }
 
+.cardprojetos .cabecalho{
+    position: relative;
+    overflow: hidden;
+    border-bottom: 8px solid rgb(67, 180, 57);
+    transition: .5s;
+}
+
+.cardprojetos .cabecalho:hover{
+    border-bottom: 8px solid rgb(57, 114, 180);
+}
+
+
+
 .cardprojetos .cabecalho img {
     width: 100%;
     height: 200px;
     border-radius: 5px;
-    border-bottom: 8px solid rgb(67, 180, 57);
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .cardprojetos .cabecalho img:hover {
-    animation-name: cor;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .cardprojetos .rodape {
     padding: 1em;
 }
 
-.cardprojetos .rodape a{
+.cardprojetos .rodape a {
     text-decoration: none;
 }
 
-.cardprojetos .rodape .git{
+.cardprojetos .rodape .git {
     margin: .3em .3em .3em 0;
     font-size: 20px;
 }
 
-.cardprojetos .rodape .git-link{
+.cardprojetos .rodape .git-link {
     color: black;
 }
 
-.cardprojetos .rodape .git-link:hover{
+.cardprojetos .rodape .git-link:hover {
     color: rgb(71, 71, 71);
 }
 
-.cardprojetos .rodape h3{
+.cardprojetos .rodape h3 {
     color: white;
 }
 
-.cardprojetos .rodape h3:hover{
+.cardprojetos .rodape h3:hover {
     color: rgb(182, 182, 182);
 }
 
-.cardprojetos .rodape h4{
+.cardprojetos .rodape h4 {
     color: rgb(197, 197, 197);
 }
 
-.cardprojetos .rodape h5{
+.cardprojetos .rodape h5 {
     color: rgb(37, 187, 179);
-}
-
-@keyframes cor {
-    from{
-        border-bottom: 8px solid rgb(67, 180, 57)
-    }
-    to{
-        border-bottom: 8px solid rgb(57, 114, 180)
-    }
 }
