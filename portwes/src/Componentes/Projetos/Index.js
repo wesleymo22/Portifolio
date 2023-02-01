@@ -1,6 +1,5 @@
 import CardProjetos from '../CardProjetos/Index'
 import './Projetos.css'
-import React, { useState } from 'react';
 
 const Projetos = () => {
 
@@ -78,8 +77,6 @@ const Projetos = () => {
             link: "https://wesleymo22.github.io/Grid-e-Flex/"
         }
     ];
-
-
 
     return (
         <section id='projetos'>

@@ -3,7 +3,7 @@ import { AiFillGithub } from "react-icons/ai"
 
 const CardProjetos = ({titulo, descricao, tecnologias, imagem, git, link}) => {
     return (
-        <div className='cardprojetos'>
+        <div className='cardprojetos' key={titulo}>
             <div className="cabecalho">
                 <a href={link}><img src={imagem} alt={titulo} /></a>
                 

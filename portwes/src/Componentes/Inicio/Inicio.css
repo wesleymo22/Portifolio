@@ -7,7 +7,7 @@
     justify-items: center;
 }
 
-#inicio .conteudo h1{
+#inicio .conteudo h1 {
     color: black;
     background-image: var(--cor-titulo);
     background-clip: text;
@@ -17,7 +17,7 @@
     margin: 0;
 }
 
-#inicio .conteudo h2{
+#inicio .conteudo h2 {
     color: rgb(168, 168, 168);
 }
 
@@ -29,7 +29,7 @@
     border-radius: 7px;
 }
 
-#inicio .botao-curriculo:hover{
+#inicio .botao-curriculo:hover {
     background-color: #59afe9;
 }
 
@@ -37,3 +37,24 @@
     height: 570px;
 }
 
+@media screen and (max-width: 1024px) {
+
+    #inicio {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 0 1em;
+        margin-top: 55px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    #inicio {
+        padding: 3em 1em;
+    }
+
+    #inicio .imagem {
+        display: none;
+    }
+}

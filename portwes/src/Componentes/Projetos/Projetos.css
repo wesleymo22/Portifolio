@@ -21,6 +21,31 @@
 }
 
 #projetos ul li{
-    margin: 1em;
+    padding: 2em;
     justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    #projetos{
+        padding: 2em 1em;
+    }
+
+    #projetos ul{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+
+    #projetos ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #projetos ul li{
+        padding: 1em .5em;
+    }
+    
 }

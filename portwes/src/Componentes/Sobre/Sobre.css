@@ -1,4 +1,4 @@
-#sobre{
+#sobre {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -11,7 +11,7 @@
     padding: 2em;
 }
 
-#sobre .imagem img{
+#sobre .imagem img {
     border-radius: 30px;
 }
 
@@ -21,7 +21,7 @@
     color: gray;
 }
 
-#sobre .conteudo h2{
+#sobre .conteudo h2 {
     color: black;
     background-image: var(--cor-titulo);
     background-clip: text;
@@ -31,3 +31,16 @@
     margin-bottom: 1em;
 }
 
+@media screen and (max-width: 900px) {
+
+    #sobre {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 2em 1em;
+    }
+    
+    #sobre .imagem {
+        display: none;
+    }
+}
