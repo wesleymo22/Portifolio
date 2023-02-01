@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
 import Navegacao from './Componentes/Navegacao/Index';
 import Inicio from './Componentes/Inicio/Index';
 import Sobre from './Componentes/Sobre/Index';

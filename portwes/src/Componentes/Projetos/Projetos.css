@@ -1,6 +1,6 @@
 #projetos {
     background-color: var(--cor-de-fundo-secundaria);
-    padding: 2em;
+    padding: 2em ;
 }
 
 #projetos h2 {
@@ -15,11 +15,12 @@
 }
 
 #projetos ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
 }
 
 #projetos ul li{
     margin: 1em;
+    justify-content: center;
 }

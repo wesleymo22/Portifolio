@@ -1,15 +1,18 @@
 import './CardProjetos.css'
+import { AiFillGithub } from "react-icons/ai"
 
-const CardProjetos = () => {
+const CardProjetos = ({titulo, descricao, tecnologias, imagem, git, link}) => {
     return (
         <div className='cardprojetos'>
             <div className="cabecalho">
-                <img src="Imagens/Screenshot_2.png" alt="teste" />
+                <a href={link}><img src={imagem} alt={titulo} /></a>
+                
             </div>
             <div className="rodape">
-                <h4>Nome do projeto</h4>
-                <h5>descriçao bem detalhada do que se trata o projeto</h5>
-                <h6>Tecnologias utilizadas</h6>
+                <a href={link}><h3>{titulo}</h3></a>
+                <a href={git} className="git-link"><AiFillGithub className='git'/>Github link</a>
+                <h4>{descricao}</h4>
+                <h5>{tecnologias}</h5>
             </div>
         </div>
     )
