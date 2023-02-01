@@ -4,6 +4,11 @@
     padding: .5em;
 }
 
-#footer h3{
+#footer p{
     margin: 0;
+}
+
+#footer a{
+    text-decoration: none;
+    font-style: italic;
 }

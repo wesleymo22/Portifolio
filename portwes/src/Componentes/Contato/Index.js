@@ -24,7 +24,7 @@ const Contato = () => {
         <h3>Email</h3>
         <p><AiOutlineMail className="contato-icone"/>wesleymo22@gmail.com</p>
         <h3>Redes Sociais</h3>
-        <p><RedesSociais /></p>
+        <RedesSociais />
       </div>
       <div className='formulario'>
 

@@ -1,10 +1,12 @@
 import CardProjetos from '../CardProjetos/Index'
 import './Projetos.css'
+import { v4 as uuidv4 } from 'uuid';
 
 const Projetos = () => {
 
     const listaProjetos = [
         {
+            id: uuidv4(),
             nome: "CCZ Copiadoras",
             descricao: "Trabalho Freelance de um site corporativo de manutenção de impressoras",
             tecnologias: "HTML, CSS e ReactJS",
@@ -13,6 +15,7 @@ const Projetos = () => {
             link: "https://cczcopiadoras.com.br"
         },
         {
+            id: uuidv4(),
             nome: "Organo",
             descricao: "Projeto de um site onde voce pode adicionar colaboradores a um time a partir de um formulario",
             tecnologias: "HTML, CSS e ReactJS",
@@ -21,6 +24,7 @@ const Projetos = () => {
             link: "https://primeiro-react-nine.vercel.app/"
         },
         {
+            id: uuidv4(),
             nome: "Mochila de Viagem",
             descricao: "Site onde voce pode adicionar itens a mochila, salvando os dados no cache da maquina",
             tecnologias: "HTML, CSS e JavaScript",
@@ -29,7 +33,8 @@ const Projetos = () => {
             link: "https://wesleymo22.github.io/Mochila-de-viagem/"
         },
         {
-            nome: "Calculadora",
+            id: uuidv4(),
+            nome: "Calculadora -  Em Desenvolvimento",
             descricao: "Calculadora do Windows que raliza todas as operaçoes matematicas",
             tecnologias: "HTML, CSS e JavaScript",
             imagem: "Imagens/calculadora.png",
@@ -37,6 +42,7 @@ const Projetos = () => {
             link: "https://wesleymo22.github.io/Calculadora/"
         },
         {
+            id: uuidv4(),
             nome: "Jogo da Velha",
             descricao: "Site onde voce pode jogar o jogo da velha em 2 jogadores ou contra IA",
             tecnologias: "HTML, CSS e JavaScript",
@@ -45,6 +51,7 @@ const Projetos = () => {
             link: "https://wesleymo22.github.io/Jogo_da_Velha/"
         },
         {
+            id: uuidv4(),
             nome: "Alura Midi",
             descricao: "Projeto de um Midi musical, ao clicar nos botoes executa um som de cada instrumento",
             tecnologias: "HTML, CSS e JavaScript",
@@ -53,6 +60,7 @@ const Projetos = () => {
             link: "https://wesleymo22.github.io/MIDI/"
         },
         {
+            id: uuidv4(),
             nome: "Alura Books",
             descricao: "Site responsivo de uma plataforma de leitura de livros",
             tecnologias: "HTML e CSS",
@@ -61,6 +69,7 @@ const Projetos = () => {
             link: "https://wesleymo22.github.io/Alura-Books/"
         },
         {
+            id: uuidv4(),
             nome: "Alura Plus",
             descricao: "Site desenvolvido totalmente em HTML e CSS utilizando varios recursos",
             tecnologias: "HTML e CSS",
@@ -69,6 +78,7 @@ const Projetos = () => {
             link: "https://wesleymo22.github.io/Alura-Plus/"
         },
         {
+            id: uuidv4(),
             nome: "HCZ",
             descricao: "Site de uma plataforma de videos e imagens, focado em grid e flex do CSS",
             tecnologias: "HTML e CSS",
@@ -83,9 +93,8 @@ const Projetos = () => {
             <h2>Projetos</h2>
             <ul>
                 {listaProjetos.map(projeto =>
-                    <li>
+                    <li key={projeto.id}>
                         <CardProjetos 
-                        key={projeto.nome} 
                         titulo={projeto.nome} 
                         descricao={projeto.descricao}
                         tecnologias={projeto.tecnologias}
