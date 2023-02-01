@@ -13,7 +13,9 @@
 }
 
 .cardprojetos .cabecalho img:hover {
-    border-bottom: 8px solid rgb(57, 114, 180);
+    animation-name: cor;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .cardprojetos .rodape {
@@ -51,4 +53,13 @@
 
 .cardprojetos .rodape h5{
     color: rgb(37, 187, 179);
+}
+
+@keyframes cor {
+    from{
+        border-bottom: 8px solid rgb(67, 180, 57)
+    }
+    to{
+        border-bottom: 8px solid rgb(57, 114, 180)
+    }
 }

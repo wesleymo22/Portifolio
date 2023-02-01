@@ -5,7 +5,7 @@ import { FaBootstrap, FaReact, FaGithub } from 'react-icons/fa'
 
 
 const Habilidades = () => {
-    return(
+    return (
         <section id='habilidades'>
             <h2>Habilidades</h2>
             <ul>
@@ -14,23 +14,23 @@ const Habilidades = () => {
                     <h3>HTML</h3>
                 </li>
                 <li>
-                    <IoLogoCss3 className="logo logo-css"/>
+                    <IoLogoCss3 className="logo logo-css" />
                     <h3>CSS</h3>
                 </li>
                 <li>
-                    <IoLogoJavascript className="logo logo-javascript"/>
+                    <IoLogoJavascript className="logo logo-javascript" />
                     <h3>JavaScript</h3>
                 </li>
                 <li>
-                    <FaReact className="logo logo-react"/>
+                    <FaReact className="logo logo-react" />
                     <h3>React</h3>
                 </li>
                 <li>
-                    <FaBootstrap className="logo logo-bootstrap"/>
+                    <FaBootstrap className="logo logo-bootstrap" />
                     <h3>Boostrap</h3>
                 </li>
                 <li>
-                    <FaGithub className="logo logo-git"/>
+                    <FaGithub className="logo logo-git" />
                     <h3>Github</h3>
                 </li>
             </ul>
