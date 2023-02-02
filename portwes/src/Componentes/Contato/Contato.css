@@ -8,11 +8,7 @@
 
 #contato .dados h2{
     margin: 1em 0;
-    color: black;
-    background-image: var(--cor-titulo);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--cor-titulo);
     font-weight: 700;
 }
 

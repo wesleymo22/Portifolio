@@ -4,11 +4,7 @@
 }
 
 #habilidades h2 {
-    color: black;
-    background-image: var(--cor-titulo);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--cor-titulo);
     font-weight: 700;
     margin-bottom: 1em;
 }
@@ -30,7 +26,7 @@
 }
 
 #habilidades ul li .logo-html{
-    color: gray;
+    color: var(--cor-logo);
     scale: 1;
     transition: .5s;
 }
@@ -41,7 +37,7 @@
 }
 
 #habilidades ul li .logo-css{
-    color: gray;
+    color: var(--cor-logo);
     scale: 1;
     transition: .5s;
 }
@@ -52,7 +48,7 @@
 }
 
 #habilidades ul li .logo-javascript{
-    color: gray;
+    color: var(--cor-logo);
     scale: 1;
     transition: .5s;
 }
@@ -63,7 +59,7 @@
 }
 
 #habilidades ul li .logo-react{
-    color: gray;
+    color: var(--cor-logo);
     scale: 1;
     transition: .5s;
 }
@@ -74,7 +70,7 @@
 }
 
 #habilidades ul li .logo-bootstrap{
-    color: gray;
+    color: var(--cor-logo);
     scale: 1;
     transition: .5s;
 }
@@ -85,7 +81,7 @@
 }
 
 #habilidades ul li .logo-git{
-    color: gray;
+    color: var(--cor-logo);
     scale: 1;
     transition: .5s;
 }

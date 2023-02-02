@@ -9,7 +9,7 @@
 
 #inicio .conteudo h1 {
     color: black;
-    background-image: var(--cor-titulo);
+    background-image: var(--cor-titulo-principal);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -19,6 +19,7 @@
 
 #inicio .conteudo h2 {
     color: rgb(168, 168, 168);
+    font-size: 30px;
 }
 
 #inicio .botao-curriculo {
