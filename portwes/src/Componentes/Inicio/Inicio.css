@@ -25,13 +25,13 @@
 #inicio .botao-curriculo {
     text-decoration: none;
     color: white;
-    background: #2075ad;
+    background: #1a8b20;
     padding: 1em;
     border-radius: 7px;
 }
 
 #inicio .botao-curriculo:hover {
-    background-color: #59afe9;
+    background-color: #23b82a;
 }
 
 #inicio .imagem img {
