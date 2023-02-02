@@ -1,0 +1,12 @@
+.fixed-top{
+    background: #131313;
+}
+
+.nome{
+    font-weight: 400;
+    font-family: var(--fonte-titulo);
+}
+
+.links{
+    font-family: var(--fonte-texto);
+}

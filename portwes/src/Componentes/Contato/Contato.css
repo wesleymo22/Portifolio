@@ -17,6 +17,7 @@
 }
 
 #contato .dados a, #contato .dados p {
+    margin-left: .7em;
     color: rgb(85, 85, 85);
     text-decoration: none;
 }
