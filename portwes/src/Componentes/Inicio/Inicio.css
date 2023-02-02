@@ -35,6 +35,7 @@
 }
 
 #inicio .imagem img {
+    justify-content: start;
     height: 570px;
 }
 

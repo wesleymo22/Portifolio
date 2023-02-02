@@ -34,7 +34,7 @@ const Projetos = () => {
         },
         {
             id: uuidv4(),
-            nome: "Calculadora -  Em Desenvolvimento",
+            nome: "Calculadora",
             descricao: "Calculadora do Windows que raliza todas as operaçoes matematicas",
             tecnologias: "HTML, CSS e JavaScript",
             imagem: "Imagens/calculadora.png",

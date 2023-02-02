@@ -1,18 +1,8 @@
 #sobre {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     padding: 4em 6em;
     background-color: var(--cor-de-fundo-secundaria);
-}
-
-#sobre .imagem {
-    padding: 2em;
-}
-
-#sobre .imagem img {
-    border-radius: 30px;
 }
 
 #sobre .conteudo {

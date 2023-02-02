@@ -3,9 +3,6 @@ import './Sobre.css'
 const Sobre = () => {
     return (
         <section id='sobre'>
-            <div className='imagem'>
-                <img src="Imagens/Sobre.png" alt="Wesley Foto" />
-            </div>
             <div className='conteudo'>
                 <h2>Sobre</h2>
                 <h4><b>Ola, Me chamo Wesley</b>, Apaixonado por tecnologia e desde criança amo de descobrir o que há de mais novo neste ramo</h4>
