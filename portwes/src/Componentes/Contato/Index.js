@@ -19,7 +19,7 @@ const Contato = () => {
         <h3>Endereço</h3>
         <p>
           <FaMapMarkerAlt className="contato-icone" />
-          R Ibipitanga 922, Pq Continental 3 Guaruhos SP
+          Pq Continental 3 Guaruhos - SP
         </p>
         <h3>Email</h3>
         <p><AiOutlineMail className="contato-icone"/>wesleymo22@gmail.com</p>
