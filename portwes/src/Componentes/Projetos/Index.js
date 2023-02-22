@@ -16,6 +16,15 @@ const Projetos = () => {
         },
         {
             id: uuidv4(),
+            nome: "Ola Mundo",
+            descricao: "Site academico de um portifolio, utilizando Rotes e reutilizaçao de componentes",
+            tecnologias: "HTML, CSS e ReactJS",
+            imagem: "Imagens/Ola-mundo.png",
+            git: "https://github.com/wesleymo22/Ola-Mundo",
+            link: "https://ola-mundo-beta.vercel.app/"
+        },
+        {
+            id: uuidv4(),
             nome: "Organo",
             descricao: "Projeto de um site onde voce pode adicionar colaboradores a um time a partir de um formulario",
             tecnologias: "HTML, CSS e ReactJS",
